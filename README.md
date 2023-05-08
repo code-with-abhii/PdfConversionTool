@@ -1,8 +1,9 @@
 # PdfConversionTool
 A website which can help you convert file from one format to another and perform operations like split, merge, adding watermark, etc. <br> <br>
 Languages Used: HTML, CSS, PHP <br>
-API use: IlovePdf api <br> <br>
-Following oprations can be performed:- 
+API use: IlovePdf api <br>
+For using this API you need to download the composer for php and  install the library of ILovePdf api. <br> <br>
+With this webapp following operations can be performed:- 
 1) Word to Pdf <br/>
 2) Pdf to Txt <br>
 3) Pdf to Img <br>
