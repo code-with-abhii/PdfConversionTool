@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERGE PDF</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="fileupload.css" />
+<body>
+<nav class="navbar">
+      <a href="index.html">
+        <img class="img" src="img/logo.jpg" alt="logo"
+      /> <hr> </a>
+    </nav>
+    <br>
+      <h4>(Note: As this is a practice project please upload a file from the test folder) </h4> <br> <br>
+      <h3> <center> <u>MERGE PDF </center> </u> </h3> <br> <br>
+      <b class= "message" style = "margin-left: 150px; font-size: 24px">Upload your .pdf files to merge them into one</b>
+      <div class="upload_file">
+        <form action="mergepdfsuccess.php" method="post">
+            <center> <input multiple = "multiple" type="file" name="pdffile[]" class="file"> </center> <br>
+          <input class = "submit" type="submit" value="Merge">
+        </div>
+      </form>
+        <footer class="fileuploadfooter">
+          <hr>
+          <p>&copy PRACTICE_PROJECT &reg-ALL RIGHTS RESERVED</p>
+      </footer>
+      </body>
+</body>
+</html>

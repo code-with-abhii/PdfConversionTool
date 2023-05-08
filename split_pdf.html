@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPLIT PDF</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="fileupload.css" />
+<body>
+<nav class="navbar">
+      <a href="index.html">
+        <img class="img" src="img/logo.jpg" alt="logo"
+      /> <hr> </a>
+    </nav>
+    <br>
+      <h4>(Note: As this is a practice project please upload a file from the test folder)</h4> <br> <br>
+      <h3> <center> <u> SPLIT PDF </center> </u> </h3> <br> <br>
+      <b class= "message" style = "margin-left: 150px; font-size: 24px">Upload your .pdf file to split it</b>
+      <div class="upload_file">
+        <form action="splitpdfsuccess.php" method="post">
+          <center> <input  type="file" name="pdffile" class="file"> </center> <br>
+          <input style="padding: 3px; font-size: 18px;" type="text" name="range" id="range" placeholder=" Range (eg. '2-4,6-8')">
+          <input class = "submit" type="submit" value="Split">
+        </div>
+      </form>
+        <footer class="fileuploadfooter">
+          <hr>
+          <p>&copy PRACTICE_PROJECT &reg-ALL RIGHTS RESERVED</p>
+      </footer>
+      </body>
+</body>
+</html>
